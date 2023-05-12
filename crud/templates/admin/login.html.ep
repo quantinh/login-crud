@@ -1,0 +1,19 @@
+% title 'Login Page';
+<h1 class="text-success heading-success">Login</h1>
+<form method="POST" action="/login">
+      <label>Username</label> 
+      <input
+            class="form-control" 
+            type="text" 
+            name="username"
+            value="" 
+      >
+      <label>Password</label> 
+      <input
+            class="form-control" 
+            type="text" 
+            name="password"
+            value=""  
+      >
+      <button type="submit" class="btn btn-primary">Login</button>
+</form>
